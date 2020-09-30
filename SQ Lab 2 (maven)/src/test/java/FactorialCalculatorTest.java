@@ -4,12 +4,12 @@ import static org.junit.jupiter.api.Assertions.*;
 class FactorialCalculatorTest {
 
     @Test
-    void PostitiveTest1() {
+    void Positive1Test() {
         assertEquals(120, FactorialCalculator.factorialOf(5));
     }
 
     @Test
-    void PostitiveTest2() {
+    void Positive2Test() {
         assertEquals(720, FactorialCalculator.factorialOf(6));
     }
 
